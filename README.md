@@ -19,7 +19,7 @@ As moedas suportadas pela API do Bacen são as seguintes:
 | SEK     | Coroa sueca              | A          |
 | USD     | Dólar dos Estados Unidos | A          |
 
-caso queira conhecer em detalhes, instale a biblioteca python: !pip install python-bcb
+Caso queira conhecer em detalhes, acesse esta documentação: https://wilsonfreitas.github.io/python-bcb/currency.html e instale a biblioteca python: !pip install python-bcb
 
 ## Motivação
 
