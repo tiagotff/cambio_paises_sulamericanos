@@ -23,7 +23,7 @@ Caso queira conhecer em detalhes, acesse esta documentação: https://wilsonfrei
 
 ## Motivação
 
-A falta de dados de câmbio completos e atualizados para moedas específicas representa um desafio para análises financeiras e relatórios. Para resolver este problema, foram propostas três abordagens que não dependem da API do Bacen:
+A falta desses dados completos e atualizados para moedas específicas representa um desafio para análises financeiras e relatórios. Para resolver este problema, foram propostas três abordagens que não dependem da API do Bacen:
 
 1. **Web Scraping com Beautiful Soup**: Utiliza web scraping para coletar dados diretamente de sites financeiros, superando as limitações da API do Bacen.
 2. **YFinance**: Aproveita a biblioteca YFinance para acessar dados financeiros do Yahoo Finance, fornecendo uma alternativa viável e sem limitações de dados.
