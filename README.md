@@ -1,6 +1,17 @@
 # Soluções para Obtenção de Dados de Câmbio
 
-Este repositório contém duas soluções alternativas para obter dados de câmbio para moedas da Argentina, Chile, Colômbia e Uruguai. Ambas as soluções são implementadas em Python e salvam os dados em arquivos CSV no Google Drive, que podem ser importados diretamente no PowerBI.
+## Contexto
+
+Uma limitação significativa foi identificada ao tentar obter dados de câmbio usando a API do Bacen, que oferece suporte apenas para um número limitado de valores e não inclui informações sobre as moedas da Argentina, Chile, Colômbia e Uruguai. Para superar essa limitação e garantir acesso completo aos dados necessários, foram desenvolvidas duas soluções alternativas.
+
+## Motivação
+
+A falta de dados de câmbio completos e atualizados para moedas específicas representa um desafio para análises financeiras e relatórios. Para resolver este problema, foram propostas duas abordagens que não dependem da API do Bacen:
+
+1. **Web Scraping com Beautiful Soup**: Utiliza web scraping para coletar dados diretamente de sites financeiros, superando as limitações da API do Bacen.
+2. **YFinance**: Aproveita a biblioteca YFinance para acessar dados financeiros do Yahoo Finance, fornecendo uma alternativa viável e sem limitações de dados.
+
+Ambas as soluções são implementadas em Python e permitem a exportação dos dados para arquivos CSV no Google Drive, que podem ser facilmente integrados ao PowerBI para análise e visualização.
 
 ## Soluções Disponíveis
 
