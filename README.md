@@ -31,7 +31,7 @@ A falta desses dados completos e atualizados para moedas específicas representa
 
 Todas as soluções foram desenvolvidas no Google Colab e permitem a exportação dos dados para arquivos CSV no Google Drive, que podem ser facilmente integrados ao PowerBI para análise e visualização.
 
-## Soluções Disponíveis
+## Soluções Desenvolvidas
 
 ### 1. Web Scraping com Beautiful Soup
 
