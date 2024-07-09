@@ -35,7 +35,7 @@ Todas as soluções foram desenvolvidas no Google Colab e permitem a exportaçã
 
 ### 1. Web Scraping com Beautiful Soup
 
-- **Descrição**: Obtém dados de câmbio de moedas de sites financeiros por meio de web scraping.
+- **Descrição**: Obtém dados de câmbio de moedas de site financeiro por meio de web scraping.
 - **Requisitos**: Instalação das bibliotecas Beautiful Soup e Requests.
 - **Funcionalidade**: O script lê os dados e salva um arquivo CSV no Google Drive com as taxas de câmbio.
 - **Link para o Colab**: [Solução com Beautiful Soup](https://colab.research.google.com/drive/1x_kqz1pf3QvnshXzdlF52cUsREUEvGxX?usp=sharing)
