@@ -2,7 +2,7 @@
 
 ## Contexto
 
-Uma limitação significativa foi identificada ao tentar obter dados de câmbio usando a [API do Bacen](https://wilsonfreitas.github.io/python-bcb/currency.html), que oferece suporte apenas para um número limitado de valores e não inclui informações sobre as moedas da Argentina, Chile, Colômbia e Uruguai. Para superar essa limitação e garantir acesso completo aos dados necessários, foram desenvolvidas três soluções alternativas.
+Uma limitação significativa foi identificada ao tentar obter dados de moedas de países Sulamericanos usando a [API do Bacen](https://wilsonfreitas.github.io/python-bcb/currency.html), que oferece suporte apenas para um número limitado de valores e não inclui informações sobre as moedas da Argentina, Chile, Colômbia e Uruguai. Para superar essa limitação e garantir acesso completo aos dados necessários, foram desenvolvidas três soluções alternativas.
 
 As moedas suportadas pela API do Bacen são as seguintes:
 
