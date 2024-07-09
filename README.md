@@ -1,4 +1,4 @@
-# Soluções para Obtenção de Dados de Câmbio de países Sulamericanos
+# Soluções para Obtenção de Dados de Câmbio
 
 ## Contexto
 
@@ -11,7 +11,7 @@ A falta de dados de câmbio completos e atualizados para moedas específicas rep
 1. **Web Scraping com Beautiful Soup**: Utiliza web scraping para coletar dados diretamente de sites financeiros, superando as limitações da API do Bacen.
 2. **YFinance**: Aproveita a biblioteca YFinance para acessar dados financeiros do Yahoo Finance, fornecendo uma alternativa viável e sem limitações de dados.
 
-Ambas as soluções são implementadas em Python e permitem a exportação dos dados para arquivos CSV no Google Drive, que podem ser facilmente integrados ao PowerBI para análise e visualização.
+Ambas as soluções foram desenvolvidas no Google Colab e permitem a exportação dos dados para arquivos CSV no Google Drive, que podem ser facilmente integrados ao PowerBI para análise e visualização.
 
 ## Soluções Disponíveis
 
@@ -20,9 +20,17 @@ Ambas as soluções são implementadas em Python e permitem a exportação dos d
 - **Descrição**: Obtém dados de câmbio de moedas de sites financeiros por meio de web scraping.
 - **Requisitos**: Instalação das bibliotecas Beautiful Soup e Requests.
 - **Funcionalidade**: O script lê os dados e salva um arquivo CSV no Google Drive com as taxas de câmbio.
+- **Link para o Colab**: [Solução com Beautiful Soup](https://colab.research.google.com/drive/1x_kqz1pf3QvnshXzdlF52cUsREUEvGxX?usp=sharing)
 
 ### 2. YFinance
 
 - **Descrição**: Usa a biblioteca YFinance para obter dados de câmbio diretamente do Yahoo Finance.
 - **Requisitos**: Instalação da biblioteca YFinance.
 - **Funcionalidade**: O script acessa as taxas de câmbio e salva um arquivo CSV no Google Drive. A biblioteca YFinance não possui limitações de dados como a API do Bacen.
+- **Link para o Colab**: [Solução com YFinance](https://colab.research.google.com/drive/1udK4yzdISaxIczA5nee33JYdrvc8UfBo?usp=sharing)
+
+## Local de Armazenamento dos Arquivos CSV
+
+Os arquivos CSV gerados pelos scripts são salvos no Google Drive. Você pode acessar a pasta onde os arquivos são armazenados através do seguinte link:
+
+- [Pasta do Google Drive](https://drive.google.com/drive/folders/1db0frdNn7SRM_cIZh-RmFjjQjcet0FlX?usp=sharing)
