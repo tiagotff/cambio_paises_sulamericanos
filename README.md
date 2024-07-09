@@ -1,4 +1,4 @@
-# Soluções para Obtenção de Dados de Câmbio de Países Sul-americanos
+# Soluções para Obtenção de Dados das moedas de Países Sul-Americanos
 
 ## Contexto
 
